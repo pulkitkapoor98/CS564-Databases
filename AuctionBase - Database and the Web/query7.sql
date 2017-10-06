@@ -1,0 +1,1 @@
+select count(DISTINCT c.Category) from Bid b, Category c where b.amount > 100 and b.ItemID = c.ItemID;

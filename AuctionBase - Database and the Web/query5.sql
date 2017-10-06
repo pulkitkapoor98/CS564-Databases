@@ -1,0 +1,1 @@
+select count(DISTINCT a.UserID) from AuctionUser a, Items i where a.UserID = i.UserID and a.rating > 1000;
